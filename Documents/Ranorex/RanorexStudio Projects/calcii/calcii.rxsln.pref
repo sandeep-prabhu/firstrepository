@@ -1,0 +1,12 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{14CB86D1-5076-4A3A-A940-2B0C49588180}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution calcii[calcii[References[]]]]&#xD;&#xA;Solution calcii\calcii\calcii.rxtst&#xD;&#xA;Solution calcii\calcii\References\Ranorex.Plugin.Web" />
+  <StartupProject value="{14CB86D1-5076-4A3A-A940-2B0C49588180}" />
+</Properties>

@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="calcii.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="calcii.rxtst" />
+    <Element value="Recording1.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>
