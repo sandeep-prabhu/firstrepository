@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="13d94ddc31d62ee0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="11-08-2016 12:22:53 PM"
+		timestampiso="2016-08-11T06:52:53"
+		timeoutfactor="1"
+		module="firefox">
+		<detail>
+			firefox
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.233"
+			timeRelativeToTestModuleStartTime="00:01.235"
+			timeWallClock="12:22:55"
+			time="00:01.233"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>browser
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.327"
+			timeRelativeToTestModuleStartTime="00:01.329"
+			timeWallClock="12:22:55"
+			time="00:01.327"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+A' Press with focus on 'Dubber.SearchBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'search_box']"
+				fullname="trialRepository.Dubber.SearchBox"
+				id="65463682fb9c40c9ae0430b8b6152b8a"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="95"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="45.54s"
+		durationms="45538"
+		type="root"
+		rid="e486fc804d0d2a4"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="04-08-2016 10:41:42 AM"
+		timestampiso="2016-08-04T05:11:42"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="45.01s"
+			durationms="45009"
+			type="test suite"
+			rid="8db9b510f9e9159"
+			totalerrorcount="1"
+			totalwarningcount="1"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="trial"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="44.96s"
+				durationms="44956"
+				type="test case"
+				rid="29b7e04be00438"
+				totalerrorcount="1"
+				totalwarningcount="1"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="8d0ceebd-75e7-4f50-b871-a6d2bd63734c"
+				datasource="NewConnector"
+				iterationcount="3"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="44.94s"
+					durationms="44940"
+					type="test case iteration"
+					rid="4801c7b8feaeb3c"
+					totalerrorcount="1"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="NewVarialble">
+							IE
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="44.87s"
+						durationms="44873"
+						type="test module"
+						rid="28bdf5802950e83f"
+						totalerrorcount="1"
+						totalwarningcount="1"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Recording1"
+						moduleid="55c2a3c1-730e-4807-80eb-5abd72673971"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="NewVariable"
+								value="IE"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.686"
+							timeRelativeToTestModuleStartTime="00:00.021"
+							timeWallClock="10:41:43"
+							time="00:00.686"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$NewVariable = 'IE'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.806"
+							timeRelativeToTestModuleStartTime="00:00.141"
+							timeWallClock="10:41:43"
+							time="00:00.806"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>NewVariable1, NewVariable2
+							</message>
+							<metainfo
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.908"
+							timeRelativeToTestModuleStartTime="00:00.243"
+							timeWallClock="10:41:43"
+							time="00:00.908"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://tigers.dubber.net/login' with browser specified by variable $NewVariable in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording1.cs"
+								codeline="121"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.406"
+							timeRelativeToTestModuleStartTime="00:00.741"
+							timeWallClock="10:41:44"
+							time="00:01.406"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DubberMozillaFirefox.Grouping.EmailAddress' at 101;21.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename='Email Address']"
+								fullname="trialRepository.DubberMozillaFirefox.Grouping.EmailAddress"
+								id="aa4becac3ece400598d11a0cff6545db"
+								timeout="90000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording1.cs"
+								codeline="125"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:45.537"
+							timeRelativeToTestModuleStartTime="00:44.872"
+							timeWallClock="10:42:28"
+							time="00:45.537"
+							level="Error"
+							category="Module">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="16230ffe942d452a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="04-08-2016 10:49:27 AM"
+		timestampiso="2016-08-04T05:19:27"
+		timeoutfactor="1"
+		module="trial12">
+		<detail>
+			trial12
+		</detail>
+		<errmsg>
+			Failed to find item 'trialRepository.Dropdown.Self'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.984"
+			timeRelativeToTestModuleStartTime="00:00.986"
+			timeWallClock="10:49:28"
+			time="00:00.984"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'IE' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.177"
+			timeRelativeToTestModuleStartTime="00:01.179"
+			timeWallClock="10:49:29"
+			time="00:01.177"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.UserEmail' at 40;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+				fullname="trialRepository.Dubber.UserEmail"
+				id="bfd88a499024496596e9794cb64f38b7"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.220"
+			timeRelativeToTestModuleStartTime="00:03.222"
+			timeWallClock="10:49:31"
+			time="00:03.220"
+			level="Info"
+			category="Keyboard"
+			errimg=".\trial122_6654b42e_c8382565_trace.jpg"
+			errthumb=".\trial122_6654b42e_c8382565_trace_thumb.jpg">
+			<message>
+				Key sequence 'qa{RShiftKey down}+{RShiftKey up}4{RShiftKey down}@{RShiftKey up}dubber.net' with focus on 'Dubber.UserEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+				fullname="trialRepository.Dubber.UserEmail"
+				id="bfd88a499024496596e9794cb64f38b7"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.147"
+			timeRelativeToTestModuleStartTime="00:05.149"
+			timeWallClock="10:49:33"
+			time="00:05.147"
+			level="Info"
+			category="Mouse"
+			errimg=".\trial122_6654b42e_53779b27_trace.jpg"
+			errthumb=".\trial122_6654b42e_53779b27_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Dropdown' at 42;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="trialRepository.Dropdown.Self"
+				id="0c5934865d0a4ac9808659b7e8c6e6a5"
+				timeout="30000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.450"
+			timeRelativeToTestModuleStartTime="00:35.452"
+			timeWallClock="10:50:03"
+			time="00:35.450"
+			level="Error"
+			category="Module"
+			errimg=".\trial122_6654b42e_98d6d673_trace.jpg"
+			errthumb=".\trial122_6654b42e_98d6d673_trace_thumb.jpg">
+			<message>
+				Failed to find item 'trialRepository.Dropdown.Self'.<br/>No element found for path '/container[@caption='dropdown']' within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at trial.trialRepositoryFolders.DropdownAppFolder.get_Self() in c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trialRepository.cs:line 595
+   at trial.trial12.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+				codeline="95"
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="trialRepository.Dropdown.Self"
+				id="0c5934865d0a4ac9808659b7e8c6e6a5"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="3"/>
+		</item>
+	</activity>
+</report>

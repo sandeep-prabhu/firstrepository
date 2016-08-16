@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="21.02s"
+		durationms="21015"
+		type="root"
+		rid="8b131587b32a268"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="11-08-2016 10:57:49 AM"
+		timestampiso="2016-08-11T05:27:49"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="20.32s"
+			durationms="20324"
+			type="test suite"
+			rid="a498e4441fe216f"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="trial"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="20.25s"
+				durationms="20249"
+				type="test case"
+				rid="3156e5ebc7b7038"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="8d0ceebd-75e7-4f50-b871-a6d2bd63734c"
+				datasource="NewConnector"
+				iterationcount="3"
+				maxchildren="0">
+				<params>
+					<param
+						name="passwd">
+					</param>
+					<param
+						name="_NewVariable">
+					</param>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="20.24s"
+					durationms="20237"
+					type="test case iteration"
+					rid="9e64188c23b96c7"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="browser">
+							IE
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="20.16s"
+						durationms="20164"
+						type="test module"
+						rid="25ccfd276c3ecf5d"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Recording1"
+						moduleid="55c2a3c1-730e-4807-80eb-5abd72673971"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="browser"
+								value="IE"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.874"
+							timeRelativeToTestModuleStartTime="00:00.023"
+							timeWallClock="10:57:50"
+							time="00:00.874"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$browser = 'IE'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.014"
+							timeRelativeToTestModuleStartTime="00:00.163"
+							timeWallClock="10:57:50"
+							time="00:01.014"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://tigers.dubber.net/login' with browser specified by variable $browser in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording1.cs"
+								codeline="95"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.606"
+							timeRelativeToTestModuleStartTime="00:00.754"
+							timeWallClock="10:57:51"
+							time="00:01.606"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DubberMozillaFirefox.Grouping.EmailAddress' at 101;21.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename='Email Address']"
+								fullname="trialRepository.DubberMozillaFirefox.Grouping.EmailAddress"
+								id="aa4becac3ece400598d11a0cff6545db"
+								timeout="90000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording1.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.015"
+							timeRelativeToTestModuleStartTime="00:20.164"
+							timeWallClock="10:58:10"
+							time="00:21.015"
+							level="Error"
+							category="Module">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

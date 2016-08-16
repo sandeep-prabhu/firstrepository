@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="354379a36b29800"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="2"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="04-08-2016 12:21:21 PM"
+		timestampiso="2016-08-04T06:51:21"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="9.35s"
+			durationms="9346"
+			type="test suite"
+			rid="161a53d42a0e5d8a"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="2"
+			testsuitename="trial"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="9.3s"
+				durationms="9303"
+				type="test case"
+				rid="7250a7e3a22bba8"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="2"
+				testcasename="TestCase"
+				testcaseid="8d0ceebd-75e7-4f50-b871-a6d2bd63734c"
+				datasource="NewConnector"
+				iterationcount="3"
+				maxchildren="0">
+				<params>
+					<param
+						name="passwd">
+					</param>
+					<param
+						name="_NewVariable">
+					</param>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="9.29s"
+					durationms="9287"
+					type="test case iteration"
+					rid="1a00e844607c408"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="passwd">
+							P@ssword1
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="9.24s"
+						durationms="9241"
+						type="test module"
+						rid="15ea890367e8017"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="UserCodeModule1"
+						moduleid="d0697171-9aaa-42c1-b8cd-c23a3244b3ac"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<errmsg>
+							Setting attribute 'text' failed on element '{Text:Email Address}'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="NewVariable"
+								value=""/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.570"
+							timeRelativeToTestModuleStartTime="00:00.017"
+							timeWallClock="12:21:21"
+							time="00:00.570"
+							level="Info"
+							category="Data"
+							errimg="images_trial_20_46750194\trial_20_46750194_dda7f476_trace.jpg"
+							errthumb="images_trial_20_46750194\trial_20_46750194_dda7f476_trace_thumb.jpg">
+							<message>
+								Current variable values:<br/>$NewVariable = ''
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.693"
+							timeRelativeToTestModuleStartTime="00:00.140"
+							timeWallClock="12:21:21"
+							time="00:00.693"
+							level="Info"
+							category="Website"
+							errimg="images_trial_20_46750194\trial_20_46750194_7ba8f90e_trace.jpg"
+							errthumb="images_trial_20_46750194\trial_20_46750194_7ba8f90e_trace_thumb.jpg">
+							<message>
+								Opening web site 'https://tigers.dubber.net/login' with browser 'Firefox' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\UserCodeModule1.cs"
+								codeline="57"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.475"
+							timeRelativeToTestModuleStartTime="00:08.921"
+							timeWallClock="12:21:30"
+							time="00:09.475"
+							level="Error"
+							category="Module"
+							errimg="images_trial_20_46750194\trial_20_46750194_f5b8dbcf_trace.jpg"
+							errthumb="images_trial_20_46750194\trial_20_46750194_f5b8dbcf_trace_thumb.jpg">
+							<message>
+								Setting attribute 'text' failed on element '{Text:Email Address}'.<br/>The operation is not supported.<br/>The method or operation is not implemented.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Element.SetAttributeValue(String name, Object value)
+   at Ranorex.Core.Element.SetAttributeValue(String name, String value)
+   at Ranorex.Text.set_TextValue(String value)
+   at trial.UserCodeModule1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\UserCodeModule1.cs:line 64
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\UserCodeModule1.cs"
+								codeline="64"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test case iteration"
+					rid="3b0f6528c3943b3c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="2">
+					<datarow>
+						<field
+							name="passwd">
+							sdfsf
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test case iteration"
+					rid="4f04cf0de298cc0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="3">
+					<datarow>
+						<field
+							name="passwd">
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

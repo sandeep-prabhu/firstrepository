@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d5959a14d70a9c0"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="04-08-2016 12:29:30 PM"
+		timestampiso="2016-08-04T06:59:30"
+		timeoutfactor="1"
+		module="UserCodeModule1">
+		<detail>
+			UserCodeModule1
+		</detail>
+		<errmsg>
+			Setting attribute 'text' failed on element '{Text:Email Address}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.947"
+			timeRelativeToTestModuleStartTime="00:00.949"
+			timeWallClock="12:29:31"
+			time="00:00.947"
+			level="Warn"
+			category="Data"
+			errimg=".\UserCode_e315fe89_94d4b6de_trace.jpg"
+			errthumb=".\UserCode_e315fe89_94d4b6de_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>NewVariable
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.539"
+			timeRelativeToTestModuleStartTime="00:09.541"
+			timeWallClock="12:29:40"
+			time="00:09.539"
+			level="Error"
+			category="Module"
+			errimg=".\UserCode_e315fe89_436a940b_trace.jpg"
+			errthumb=".\UserCode_e315fe89_436a940b_trace_thumb.jpg">
+			<message>
+				Setting attribute 'text' failed on element '{Text:Email Address}'.<br/>The operation is not supported.<br/>The method or operation is not implemented.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.SetAttributeValue(String name, Object value)
+   at Ranorex.Core.Element.SetAttributeValue(String name, String value)
+   at Ranorex.Text.set_TextValue(String value)
+   at trial.UserCodeModule1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\UserCodeModule1.cs:line 71
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\UserCodeModule1.cs"
+				codeline="71"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

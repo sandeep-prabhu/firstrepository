@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="20.22s"
+		durationms="20216"
+		type="root"
+		rid="2146689d873302"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="12-08-2016 10:27:44 AM"
+		timestampiso="2016-08-12T04:57:44"
+		timeoutfactor="1"
+		module="traaaacc">
+		<detail>
+			traaaacc
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.357"
+			timeRelativeToTestModuleStartTime="00:01.359"
+			timeWallClock="10:27:45"
+			time="00:01.357"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\traaaacc.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.561"
+			timeRelativeToTestModuleStartTime="00:01.563"
+			timeWallClock="10:27:46"
+			time="00:01.561"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'qa+4@dubber.net' with focus on 'Dubber.UserEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+				fullname="trialRepository.Dubber.UserEmail"
+				id="32a76f1ebf03414d84a3c6b3a97c4ac1"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\traaaacc.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.128"
+			timeRelativeToTestModuleStartTime="00:07.130"
+			timeWallClock="10:27:51"
+			time="00:07.128"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'P@ssword1' with focus on 'Dubber.UserPassword'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_password']"
+				fullname="trialRepository.Dubber.UserPassword"
+				id="506b6326a16b437f9d6d4b6adedfec32"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\traaaacc.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.662"
+			timeRelativeToTestModuleStartTime="00:08.664"
+			timeWallClock="10:27:53"
+			time="00:08.662"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.SubmitButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'submit_button']"
+				fullname="trialRepository.Dubber.SubmitButton"
+				id="8ecc00c13e054a6ba8686add4b26ef58"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\traaaacc.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.018"
+			timeRelativeToTestModuleStartTime="00:10.020"
+			timeWallClock="10:27:54"
+			time="00:10.018"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ranorex2' with focus on 'Dubber.SearchBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'search_box']"
+				fullname="trialRepository.Dubber.SearchBox"
+				id="36d2cb0b7d75446ab86d0d3f105ade48"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\traaaacc.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.216"
+			timeRelativeToTestModuleStartTime="00:20.218"
+			timeWallClock="10:28:04"
+			time="00:20.216"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="63021"
+		type="root"
+		rid="8e76c4abd4d030"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="11-08-2016 03:25:43 PM"
+		timestampiso="2016-08-11T09:55:43"
+		timeoutfactor="1"
+		module="firefox">
+		<detail>
+			firefox
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.988"
+			timeRelativeToTestModuleStartTime="00:00.990"
+			timeWallClock="15:25:44"
+			time="00:00.988"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>browser
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.060"
+			timeRelativeToTestModuleStartTime="00:01.062"
+			timeWallClock="15:25:44"
+			time="00:01.060"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'IE' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="95"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.189"
+			timeRelativeToTestModuleStartTime="00:01.191"
+			timeWallClock="15:25:44"
+			time="00:01.189"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'qa+4@dubber.net' with focus on 'Dubber.UserEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+				fullname="trialRepository.Dubber.UserEmail"
+				id="bfd88a499024496596e9794cb64f38b7"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.551"
+			timeRelativeToTestModuleStartTime="00:07.553"
+			timeWallClock="15:25:51"
+			time="00:07.551"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'P@ssword1' with focus on 'Dubber.UserPassword'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_password']"
+				fullname="trialRepository.Dubber.UserPassword"
+				id="d4caa6412985445eac44479c063e54a4"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.444"
+			timeRelativeToTestModuleStartTime="00:09.446"
+			timeWallClock="15:25:53"
+			time="00:09.444"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.SubmitButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'submit_button']"
+				fullname="trialRepository.Dubber.SubmitButton"
+				id="3f33974575ad4b9484954f6f92542b75"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.068"
+			timeRelativeToTestModuleStartTime="00:11.070"
+			timeWallClock="15:25:54"
+			time="00:11.068"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ranorex1' with focus on 'Dubber.SearchBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'search_box']"
+				fullname="trialRepository.Dubber.SearchBox"
+				id="65463682fb9c40c9ae0430b8b6152b8a"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.UserCode.cs"
+				codeline="38"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.633"
+			timeRelativeToTestModuleStartTime="00:14.635"
+			timeWallClock="15:25:58"
+			time="00:14.633"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Enter' Press.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="114"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.748"
+			timeRelativeToTestModuleStartTime="00:14.750"
+			timeWallClock="15:25:58"
+			time="00:14.748"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.CustomerAccountNameRanorex' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//a[#'customer_account_name_ranorex']"
+				fullname="trialRepository.Dubber.CustomerAccountNameRanorex"
+				id="98a08bedea09472dbc7294eb895ed060"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="118"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.299"
+			timeRelativeToTestModuleStartTime="00:17.301"
+			timeWallClock="15:26:01"
+			time="00:17.299"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.AccountInboundTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//a[#'account_inbound_tab']"
+				fullname="trialRepository.Dubber.AccountInboundTab"
+				id="d3c34c34f415485da3315dd337765923"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="122"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.685"
+			timeRelativeToTestModuleStartTime="00:19.687"
+			timeWallClock="15:26:03"
+			time="00:19.685"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.DownloadCallflow' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//a[#'download_callflow']"
+				fullname="trialRepository.Dubber.DownloadCallflow"
+				id="40a0ab5623b047e0a6bc33712e553964"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="126"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.667"
+			timeRelativeToTestModuleStartTime="00:33.669"
+			timeWallClock="15:26:17"
+			time="00:33.667"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.InboundNumberAdvancedXml' at CenterLeft.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'inbound_number_advanced_xml']"
+				fullname="trialRepository.Dubber.InboundNumberAdvancedXml"
+				id="7392c9a3d9f4424ba79d1ce9c9b40db9"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="130"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.317"
+			timeRelativeToTestModuleStartTime="00:35.319"
+			timeWallClock="15:26:19"
+			time="00:35.317"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Downloads.Downloads' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Downloads']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']/?/?/treeitem[@text='This PC']/treeitem[@text='Downloads']"
+				fullname="trialRepository.Downloads.Downloads"
+				id="bc9978e127b04ae9b7b103c4de13826a"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="134"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.020"
+			timeRelativeToTestModuleStartTime="01:03.022"
+			timeWallClock="15:26:46"
+			time="01:03.020"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

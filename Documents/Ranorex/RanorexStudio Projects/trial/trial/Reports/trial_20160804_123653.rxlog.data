@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5332370ba90ad74"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="2"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="04-08-2016 12:36:53 PM"
+		timestampiso="2016-08-04T07:06:53"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="36.36s"
+			durationms="36364"
+			type="test suite"
+			rid="1c431f98a55d0b86"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="2"
+			testsuitename="trial"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="36.32s"
+				durationms="36317"
+				type="test case"
+				rid="2dd8f9e90d3ea24e"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="2"
+				testcasename="TestCase"
+				testcaseid="8d0ceebd-75e7-4f50-b871-a6d2bd63734c"
+				datasource="NewConnector"
+				iterationcount="3"
+				maxchildren="0">
+				<params>
+					<param
+						name="passwd">
+					</param>
+					<param
+						name="_NewVariable">
+					</param>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="36.29s"
+					durationms="36292"
+					type="test case iteration"
+					rid="1029c2407608e718"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="passwd">
+							P@ssword1
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="19.02s"
+						durationms="19019"
+						type="test module"
+						rid="176cf285c89d5e22"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="trial12"
+						moduleid="e3113b71-9324-40c1-8449-87127ce81d9f"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="passwd"
+								value="P@ssword1"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.615"
+							timeRelativeToTestModuleStartTime="00:00.023"
+							timeWallClock="12:36:53"
+							time="00:00.615"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$passwd = 'P@ssword1'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.740"
+							timeRelativeToTestModuleStartTime="00:00.148"
+							timeWallClock="12:36:53"
+							time="00:00.740"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://tigers.dubber.net/login' with browser 'Chrome' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+								codeline="95"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.209"
+							timeRelativeToTestModuleStartTime="00:00.617"
+							timeWallClock="12:36:54"
+							time="00:01.209"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Dubber.UserEmail' at 40;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+								fullname="trialRepository.Dubber.UserEmail"
+								id="bfd88a499024496596e9794cb64f38b7"
+								timeout="60000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.270"
+							timeRelativeToTestModuleStartTime="00:05.678"
+							timeWallClock="12:36:59"
+							time="00:06.270"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'qa{RShiftKey down}+{RShiftKey up}4{RShiftKey down}@{RShiftKey up}dubber.net' with focus on 'Dubber.UserEmail'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+								fullname="trialRepository.Dubber.UserEmail"
+								id="bfd88a499024496596e9794cb64f38b7"
+								timeout="60000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+								codeline="103"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.217"
+							timeRelativeToTestModuleStartTime="00:07.624"
+							timeWallClock="12:37:01"
+							time="00:08.217"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Dropdown' at 42;13.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/container[@caption='dropdown']"
+								fullname="trialRepository.Dropdown.Self"
+								id="0c5934865d0a4ac9808659b7e8c6e6a5"
+								timeout="30000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+								codeline="107"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.121"
+							timeRelativeToTestModuleStartTime="00:08.528"
+							timeWallClock="12:37:02"
+							time="00:09.121"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Dubber.UserPassword' at 58;24.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='tigers.dubber.net']//input[#'user_password']"
+								fullname="trialRepository.Dubber.UserPassword"
+								id="d4caa6412985445eac44479c063e54a4"
+								timeout="60000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+								codeline="111"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.040"
+							timeRelativeToTestModuleStartTime="00:09.447"
+							timeWallClock="12:37:03"
+							time="00:10.040"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$passwd' with focus on 'Dubber.UserPassword'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='tigers.dubber.net']//input[#'user_password']"
+								fullname="trialRepository.Dubber.UserPassword"
+								id="d4caa6412985445eac44479c063e54a4"
+								timeout="60000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+								codeline="115"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.319"
+							timeRelativeToTestModuleStartTime="00:10.726"
+							timeWallClock="12:37:04"
+							time="00:11.319"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Dubber.SubmitButton' at 59;17.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='tigers.dubber.net']//input[#'submit_button']"
+								fullname="trialRepository.Dubber.SubmitButton"
+								id="3f33974575ad4b9484954f6f92542b75"
+								timeout="60000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+								codeline="119"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.220"
+							timeRelativeToTestModuleStartTime="00:11.628"
+							timeWallClock="12:37:05"
+							time="00:12.220"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Dubber.SearchBox' at 105;17.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='tigers.dubber.net']//input[#'search_box']"
+								fullname="trialRepository.Dubber.SearchBox"
+								id="65463682fb9c40c9ae0430b8b6152b8a"
+								timeout="60000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+								codeline="123"
+								itemindex="7"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.954"
+							timeRelativeToTestModuleStartTime="00:17.361"
+							timeWallClock="12:37:11"
+							time="00:17.954"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'ranorex1' with focus on 'Dubber.SearchBox'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='tigers.dubber.net']//input[#'search_box']"
+								fullname="trialRepository.Dubber.SearchBox"
+								id="65463682fb9c40c9ae0430b8b6152b8a"
+								timeout="60000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+								codeline="127"
+								itemindex="8"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.135"
+							timeRelativeToTestModuleStartTime="00:18.542"
+							timeWallClock="12:37:12"
+							time="00:19.135"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{Return}' with focus on 'Dubber.SearchBox'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='tigers.dubber.net']//input[#'search_box']"
+								fullname="trialRepository.Dubber.SearchBox"
+								id="65463682fb9c40c9ae0430b8b6152b8a"
+								timeout="60000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\trial12.cs"
+								codeline="131"
+								itemindex="9"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="15.42s"
+						durationms="15422"
+						type="test module"
+						rid="c85c598e0160b0a"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Recording1"
+						moduleid="55c2a3c1-730e-4807-80eb-5abd72673971"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="passwd"
+								value="P@ssword1"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.622"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="12:37:12"
+							time="00:19.622"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$passwd = 'P@ssword1'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.696"
+							timeRelativeToTestModuleStartTime="00:00.076"
+							timeWallClock="12:37:12"
+							time="00:19.696"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://tigers.dubber.net/login' with browser 'Firefox' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording1.cs"
+								codeline="95"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.819"
+							timeRelativeToTestModuleStartTime="00:00.199"
+							timeWallClock="12:37:13"
+							time="00:19.819"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DubberMozillaFirefox.Grouping.EmailAddress' at 101;21.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename='Email Address']"
+								fullname="trialRepository.DubberMozillaFirefox.Grouping.EmailAddress"
+								id="aa4becac3ece400598d11a0cff6545db"
+								timeout="90000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording1.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.483"
+							timeRelativeToTestModuleStartTime="00:08.862"
+							timeWallClock="12:37:21"
+							time="00:28.483"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'qa{RShiftKey down}+{RShiftKey up}4{RShiftKey down}@{RShiftKey up}dubber.net' with focus on 'DubberMozillaFirefox.Grouping.EmailAddress'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename='Email Address']"
+								fullname="trialRepository.DubberMozillaFirefox.Grouping.EmailAddress"
+								id="aa4becac3ece400598d11a0cff6545db"
+								timeout="90000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording1.cs"
+								codeline="103"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:30.743"
+							timeRelativeToTestModuleStartTime="00:11.123"
+							timeWallClock="12:37:23"
+							time="00:30.743"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Firefox.QaPlus4AtdubberNet' at 87;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='firefox']/?/?/listitem[@accessiblename='qa+4@dubber.net']"
+								fullname="trialRepository.Firefox.QaPlus4AtdubberNet"
+								id="21c6fc3e24df446fb089410c7247aa3e"
+								timeout="60000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording1.cs"
+								codeline="107"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.692"
+							timeRelativeToTestModuleStartTime="00:12.072"
+							timeWallClock="12:37:24"
+							time="00:31.692"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DubberMozillaFirefox.Grouping.Password' at 88;22.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/?/?/text[@accessiblename='Password']"
+								fullname="trialRepository.DubberMozillaFirefox.Grouping.Password"
+								id="494e51bdbe0e427b83b2cbd7f23739da"
+								timeout="90000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording1.cs"
+								codeline="111"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:32.965"
+							timeRelativeToTestModuleStartTime="00:13.345"
+							timeWallClock="12:37:26"
+							time="00:32.965"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$passwd' with focus on 'DubberMozillaFirefox.Grouping.Password'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/?/?/text[@accessiblename='Password']"
+								fullname="trialRepository.DubberMozillaFirefox.Grouping.Password"
+								id="494e51bdbe0e427b83b2cbd7f23739da"
+								timeout="90000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording1.cs"
+								codeline="115"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:34.180"
+							timeRelativeToTestModuleStartTime="00:14.559"
+							timeWallClock="12:37:27"
+							time="00:34.180"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DubberMozillaFirefox.Grouping.Login' at 32;10.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[3]/button[@accessiblename='Login']"
+								fullname="trialRepository.DubberMozillaFirefox.Grouping.Login"
+								id="ecf964a598c24404bf05f73aa2de7147"
+								timeout="90000"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording1.cs"
+								codeline="119"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="1.77s"
+						durationms="1768"
+						type="test module"
+						rid="55f78e3167b13b8"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="UserCodeModule1"
+						moduleid="d0697171-9aaa-42c1-b8cd-c23a3244b3ac"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<errmsg>
+							Setting attribute 'text' failed on element '{Text:Email Address}'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="NewVariable"
+								value=""/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:35.050"
+							timeRelativeToTestModuleStartTime="00:00.005"
+							timeWallClock="12:37:28"
+							time="00:35.050"
+							level="Info"
+							category="Data"
+							errimg="images_trial_20_5b5931d3\trial_20_5b5931d3_762d29da_trace.jpg"
+							errthumb="images_trial_20_5b5931d3\trial_20_5b5931d3_762d29da_trace_thumb.jpg">
+							<message>
+								Current variable values:<br/>$NewVariable = ''
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:35.137"
+							timeRelativeToTestModuleStartTime="00:00.092"
+							timeWallClock="12:37:28"
+							time="00:35.137"
+							level="Info"
+							category="Website"
+							errimg="images_trial_20_5b5931d3\trial_20_5b5931d3_09b6550d_trace.jpg"
+							errthumb="images_trial_20_5b5931d3\trial_20_5b5931d3_09b6550d_trace_thumb.jpg">
+							<message>
+								Opening web site 'https://tigers.dubber.net/login' with browser 'Chrome' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\UserCodeModule1.cs"
+								codeline="70"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:36.418"
+							timeRelativeToTestModuleStartTime="00:01.373"
+							timeWallClock="12:37:29"
+							time="00:36.418"
+							level="Error"
+							category="Module"
+							errimg="images_trial_20_5b5931d3\trial_20_5b5931d3_d28c17f3_trace.jpg"
+							errthumb="images_trial_20_5b5931d3\trial_20_5b5931d3_d28c17f3_trace_thumb.jpg">
+							<message>
+								Setting attribute 'text' failed on element '{Text:Email Address}'.<br/>The operation is not supported.<br/>The method or operation is not implemented.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Element.SetAttributeValue(String name, Object value)
+   at Ranorex.Core.Element.SetAttributeValue(String name, String value)
+   at Ranorex.Text.set_TextValue(String value)
+   at trial.UserCodeModule1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\UserCodeModule1.cs:line 76
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\UserCodeModule1.cs"
+								codeline="76"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="2ms"
+					durationms="2"
+					type="test case iteration"
+					rid="1ad09828ff3c1440"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="2">
+					<datarow>
+						<field
+							name="passwd">
+							sdfsf
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="2ms"
+					durationms="2"
+					type="test case iteration"
+					rid="12831b955ee10838"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="3">
+					<datarow>
+						<field
+							name="passwd">
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

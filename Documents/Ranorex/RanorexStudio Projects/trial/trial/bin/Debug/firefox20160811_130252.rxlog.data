@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="2.84s"
+		durationms="2844"
+		type="root"
+		rid="beca630f8688300"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="11-08-2016 01:03:10 PM"
+		timestampiso="2016-08-11T07:33:10"
+		timeoutfactor="1"
+		module="firefox">
+		<detail>
+			firefox
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.421"
+			timeRelativeToTestModuleStartTime="00:01.424"
+			timeWallClock="13:03:11"
+			time="00:01.421"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>browser
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.522"
+			timeRelativeToTestModuleStartTime="00:01.525"
+			timeWallClock="13:03:11"
+			time="00:01.522"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.CustomerAccountNameRanorex' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//a[#'customer_account_name_ranorex']"
+				fullname="trialRepository.Dubber.CustomerAccountNameRanorex"
+				id="98a08bedea09472dbc7294eb895ed060"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.843"
+			timeRelativeToTestModuleStartTime="00:02.846"
+			timeWallClock="13:03:13"
+			time="00:02.843"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

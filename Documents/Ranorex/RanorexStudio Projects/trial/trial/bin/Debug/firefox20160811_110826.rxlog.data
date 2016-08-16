@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9141eaa08c512fd"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="11-08-2016 11:08:35 AM"
+		timestampiso="2016-08-11T05:38:35"
+		timeoutfactor="1"
+		module="firefox">
+		<detail>
+			firefox
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.142"
+			timeRelativeToTestModuleStartTime="00:01.145"
+			timeWallClock="11:08:37"
+			time="00:01.142"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.352"
+			timeRelativeToTestModuleStartTime="00:01.355"
+			timeWallClock="11:08:37"
+			time="00:01.352"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'qa+4@dubber.net' with focus on 'Dubber.UserEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+				fullname="trialRepository.Dubber.UserEmail"
+				id="bfd88a499024496596e9794cb64f38b7"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.177"
+			timeRelativeToTestModuleStartTime="00:09.180"
+			timeWallClock="11:08:45"
+			time="00:09.177"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'P@ssword1' with focus on 'Dubber.UserPassword'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_password']"
+				fullname="trialRepository.Dubber.UserPassword"
+				id="d4caa6412985445eac44479c063e54a4"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.046"
+			timeRelativeToTestModuleStartTime="00:11.049"
+			timeWallClock="11:08:47"
+			time="00:11.046"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.SubmitButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'submit_button']"
+				fullname="trialRepository.Dubber.SubmitButton"
+				id="3f33974575ad4b9484954f6f92542b75"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

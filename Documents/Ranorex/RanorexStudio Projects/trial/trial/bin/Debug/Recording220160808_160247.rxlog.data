@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="65b1ec7c03b9bcb"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="08-08-2016 04:03:35 PM"
+		timestampiso="2016-08-08T10:33:35"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<errmsg>
+			Failed to move to location '94;9' within element '{ButtonTag:inbound_number_submit_button}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.568"
+			timeRelativeToTestModuleStartTime="00:01.570"
+			timeWallClock="16:03:36"
+			time="00:01.568"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s for item 'Dubber.AdvancedCallflowFileUploadedSuccessf' to exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//div[#'flash_notice']/p[@innertext~'^Advanced\ callflow\ file\ up']"
+				fullname="trialRepository.Dubber.AdvancedCallflowFileUploadedSuccessf"
+				id="70fe218949cd4dcf8cad1d34d950c44a"
+				timeout="5000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.764"
+			timeRelativeToTestModuleStartTime="00:03.766"
+			timeWallClock="16:03:38"
+			time="00:03.764"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_ca76fe27_fefa990d_trace.jpg"
+			errthumb=".\Recordin_ca76fe27_fefa990d_trace_thumb.jpg">
+			<message>
+				Mouse Left Down item 'Dubber' at 1356;235.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']"
+				fullname="trialRepository.Dubber.Self"
+				id="b1ba427780d84acb9832211ad4a36800"
+				timeout="30000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording2.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.574"
+			timeRelativeToTestModuleStartTime="00:04.576"
+			timeWallClock="16:03:39"
+			time="00:04.574"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_ca76fe27_f098b80d_trace.jpg"
+			errthumb=".\Recordin_ca76fe27_f098b80d_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Dubber.InboundNumberSubmitButton' at 94;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//button[#'inbound_number_submit_button']"
+				fullname="trialRepository.Dubber.InboundNumberSubmitButton"
+				id="592f8a0b726d4ac6a82f06458ebbd793"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording2.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.977"
+			timeRelativeToTestModuleStartTime="00:04.979"
+			timeWallClock="16:03:40"
+			time="00:04.977"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_ca76fe27_4e5c0499_trace.jpg"
+			errthumb=".\Recordin_ca76fe27_4e5c0499_trace_thumb.jpg">
+			<message>
+				Failed to move to location '94;9' within element '{ButtonTag:inbound_number_submit_button}'.<br/>The pointer cannot be moved to point '{X=1004,Y=1184}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.Click(Location location)
+   at trial.Recording2.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording2.cs:line 91
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\Recording2.cs"
+				codeline="91"
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//button[#'inbound_number_submit_button']"
+				fullname="trialRepository.Dubber.InboundNumberSubmitButton"
+				id="592f8a0b726d4ac6a82f06458ebbd793"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

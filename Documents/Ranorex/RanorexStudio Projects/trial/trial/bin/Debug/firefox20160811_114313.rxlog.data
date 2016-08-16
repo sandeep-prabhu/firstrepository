@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2392732b67a52baa"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="11-08-2016 11:43:23 AM"
+		timestampiso="2016-08-11T06:13:23"
+		timeoutfactor="1"
+		module="firefox">
+		<detail>
+			firefox
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.043"
+			timeRelativeToTestModuleStartTime="00:01.045"
+			timeWallClock="11:43:24"
+			time="00:01.043"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>browser
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.120"
+			timeRelativeToTestModuleStartTime="00:01.122"
+			timeWallClock="11:43:24"
+			time="00:01.120"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'Dubber'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']"
+				fullname="trialRepository.Dubber.Self"
+				id="b1ba427780d84acb9832211ad4a36800"
+				timeout="30000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\firefox.cs"
+				codeline="95"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

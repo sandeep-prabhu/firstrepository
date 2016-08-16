@@ -1,0 +1,8 @@
+C:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\bin\Debug\trial.rxtmg
+C:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\bin\Debug\trial.rxtst
+C:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\bin\Debug\trial.exe.config
+C:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\bin\Debug\trial.exe
+C:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\bin\Debug\trial.pdb
+C:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\obj\x86\Debug\trial.csprojResolveAssemblyReference.cache
+C:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\obj\x86\Debug\trial.exe
+C:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\obj\x86\Debug\trial.pdb

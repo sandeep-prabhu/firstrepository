@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="29.98s"
+		durationms="29978"
+		type="root"
+		rid="27ab1980397c3620"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sandeep"
+		host="PC1"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="12-08-2016 10:28:20 AM"
+		timestampiso="2016-08-12T04:58:20"
+		timeoutfactor="1"
+		module="traaaacc">
+		<detail>
+			traaaacc
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.267"
+			timeRelativeToTestModuleStartTime="00:01.269"
+			timeWallClock="10:28:21"
+			time="00:01.267"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\traaaacc.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.470"
+			timeRelativeToTestModuleStartTime="00:01.472"
+			timeWallClock="10:28:21"
+			time="00:01.470"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'qa+4@dubber.net' with focus on 'Dubber.UserEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+				fullname="trialRepository.Dubber.UserEmail"
+				id="32a76f1ebf03414d84a3c6b3a97c4ac1"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\traaaacc.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.113"
+			timeRelativeToTestModuleStartTime="00:06.115"
+			timeWallClock="10:28:26"
+			time="00:06.113"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'P@ssword1' with focus on 'Dubber.UserPassword'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_password']"
+				fullname="trialRepository.Dubber.UserPassword"
+				id="506b6326a16b437f9d6d4b6adedfec32"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\traaaacc.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.645"
+			timeRelativeToTestModuleStartTime="00:07.647"
+			timeWallClock="10:28:27"
+			time="00:07.645"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.SubmitButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'submit_button']"
+				fullname="trialRepository.Dubber.SubmitButton"
+				id="8ecc00c13e054a6ba8686add4b26ef58"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\traaaacc.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.785"
+			timeRelativeToTestModuleStartTime="00:08.787"
+			timeWallClock="10:28:28"
+			time="00:08.785"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ranorex2' with focus on 'Dubber.SearchBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'search_box']"
+				fullname="trialRepository.Dubber.SearchBox"
+				id="36d2cb0b7d75446ab86d0d3f105ade48"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\traaaacc.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.314"
+			timeRelativeToTestModuleStartTime="00:11.316"
+			timeWallClock="10:28:31"
+			time="00:11.314"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Enter' Press.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\traaaacc.cs"
+				codeline="102"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.423"
+			timeRelativeToTestModuleStartTime="00:11.425"
+			timeWallClock="10:28:31"
+			time="00:11.423"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.CustomerAccountNameRanorex' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//a[#'customer_account_name_ranorex']"
+				fullname="trialRepository.Dubber.CustomerAccountNameRanorex"
+				id="bd93969c42ba417c867baf00ea530ab1"
+				timeout="60000"
+				codefile="c:\Users\Sandeep\Documents\Ranorex\RanorexStudio Projects\trial\trial\traaaacc.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.978"
+			timeRelativeToTestModuleStartTime="00:29.980"
+			timeWallClock="10:28:50"
+			time="00:29.978"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

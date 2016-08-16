@@ -1,0 +1,22 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="traaaacc.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="trial.rxtmg" />
+    <Element value="trial.rxtst" />
+    <Element value="Recording2.rxrec" />
+    <Element value="UserCodeModule1.cs" />
+    <Element value="newrepo.rxrep" />
+    <Element value="firefox.rxrec" />
+    <Element value="firefox.UserCode.cs" />
+    <Element value="traaaacc.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

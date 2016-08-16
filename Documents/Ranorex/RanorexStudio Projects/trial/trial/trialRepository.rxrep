@@ -1,0 +1,127 @@
+﻿<repository
+name="trialRepository"
+id="2685b0d8-ac81-4573-8d58-e4560986ff1e"
+rxversion="6.0">
+	<codegen
+	classname="trialRepository"
+	namespace="trial"/>
+	<rootfolder
+	name="Root"
+	id="f0dc129b-cc16-425c-9478-70f420c71644"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Dubber"
+		id="d2cb67d4-6954-4f21-83aa-7c4f6318070c"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='tigers.dubber.net']"
+		addcaps="container,webdocument"
+		refimgid="12fd45ae-9ed9-4ba4-b2af-084355916f8c"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="UserEmail"
+			id="32a76f1e-bf03-414d-84a3-c6b3a97c4ac1"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="206c10a2-09e3-4cf0-967e-c2a5f10b9be5">
+				/dom[@domain='tigers.dubber.net']//input[#'user_email']
+			</item>
+			<item
+			name="UserPassword"
+			id="506b6326-a16b-437f-9d6d-4b6adedfec32"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'user_password']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="54937b1b-92fc-4f09-98c2-a0ec77ceff69">
+				/dom[@domain='tigers.dubber.net']//input[#'user_password']
+			</item>
+			<item
+			name="SubmitButton"
+			id="8ecc00c1-3e05-4a6b-a868-6add4b26ef58"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'submit_button']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="d686de1b-22a7-4a10-ad35-70106b69801c">
+				/dom[@domain='tigers.dubber.net']//input[#'submit_button']
+			</item>
+			<item
+			name="SearchBox"
+			id="36d2cb0b-7d75-446a-b86d-0d3f105ade48"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'search_box']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="211efcb9-ab03-49c8-a92c-ea7ba799a9c9">
+				/dom[@domain='tigers.dubber.net']//input[#'search_box']
+			</item>
+			<item
+			name="CustomerAccountNameRanorex"
+			id="bd93969c-42ba-417c-867b-af00ea530ab1"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'customer_account_name_ranorex']"
+			addcaps="unknown,webelement,atag"
+			refimgid="63c0c1cc-64a2-4c65-bfda-d4a0df9a0caa">
+				/dom[@domain='tigers.dubber.net']//a[#'customer_account_name_ranorex']
+			</item>
+			<item
+			name="AccountInboundTab"
+			id="d09aa076-9eb3-4b66-aa86-631bcc8c76e0"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'account_inbound_tab']"
+			addcaps="unknown,webelement,atag"
+			refimgid="69eca039-744b-4def-9854-79c585a31e5c">
+				/dom[@domain='tigers.dubber.net']//a[#'account_inbound_tab']
+			</item>
+			<item
+			name="ProfileDdt"
+			id="70e02438-7300-48ea-9ca3-15a2ddd886ce"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']"
+			addcaps="unknown,webelement,atag"
+			refimgid="cb722fbd-f82d-4e6d-9c9b-9a75e490fc06">
+				/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']
+			</item>
+			<item
+			name="DropDownLogout"
+			id="15a50208-38e9-4847-87b2-147de7953e0c"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'drop_down_logout']"
+			addcaps="unknown,webelement,atag"
+			refimgid="0bd0a102-ee8c-4c45-9f29-8a8408eac0f2">
+				/dom[@domain='tigers.dubber.net']//a[#'drop_down_logout']
+			</item>
+			<basepath>
+				/dom[@domain='tigers.dubber.net']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

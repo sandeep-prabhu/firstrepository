@@ -1,0 +1,112 @@
+﻿<repository
+name="newrepo"
+id="bdab34be-7b88-45fc-ad9a-adbc9f0de6b8"
+rxversion="6.0">
+	<codegen
+	classname="newrepo"
+	namespace="trial"/>
+	<rootfolder
+	name="Root"
+	id="f69058ce-4ad1-4559-b10f-18987b6c48b1"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="DubberMozillaFirefox"
+		id="ff697b5d-960d-4fb4-9d8d-33deb0566dae"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Dubber - Mozilla Firefox']"
+		isrooted="True"
+		usecache="True">
+			<folder
+			name="Grouping"
+			id="a1a01c2b-3e8b-4aa2-9ba1-64a8ee101914"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="EmailAddress"
+				id="0a48e23d-7453-41d7-83c4-374590f14add"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[2]/element[2]/element[1]/element/element[2]/element/element/element/element[1]/element/text[@accessiblename='Email Address']"
+				addcaps="text,accessible"
+				refimgid="797e214c-a24f-4286-af63-20d56885c373">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename='Email Address']
+				</item>
+				<basepath>
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Dubber - Mozilla Firefox']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAwZJREFUOE+tk1lIlGEUhv+ixbAJy6yczWbs+0eSiDIb6yJtsXXGJSUd
+oyyacSwzZMq0EhVpc6nQQExTCimbFlyyrBAmM2MSxNTcSnNGHaWyhUiL0P/tG/0viuquF96r7zwv
+55yPw/x37a/pl+w12fIiTYP9ux+/53Y/+cBFmt5a9dW92QFlDUK+7E8NpMm3BxeYtL65NcMkpwbK
+a0+x9v4ANle/h0+lDX7GFhSa2z+VGHOO0/JJExSvDo3r3Nc66VhSYvyYPtWAkgI1gjOPQnS9DbJS
+K2YauyDJMSOahvb0PER9qbaKRydUESLZ2KEh6ItjYUtbBEvOQigTMyA6X4aphc2Ykd8Ep/Q6LD1W
+hs9DT/GlLxODzwRqHmeY2l3i7F4dQe8hGpDMwnJKjvY4P1xMjYFzei1ckqux4Mg9uOqKkV9xBxg6
+iz4zc47HGeblHpnNEsnCGsOiP4HF4AV3nNQFgY0zQmy4C5fomxBoLsEhMAu3KgvBfchFa4XcxuMM
+0xguGn2zk8ASxaIlnEXy5pVYEmaAY0Q+HDV5mKbOxHT/VExXxuLH52JwH0+gIn81l5LCTB4PqNsi
+HnsVStBDu3i+ToFrGh/M94uBWHUYm7Q6OG+Ih2C5Hm4rNPjWsR6jVhat14XD47BdpX5uTS3bCLrC
+CF7TZVr0LN4YPGBJZFG1TwF1UDBme4QjOWE1RuqEGDY74UWaayWPM8wVpTzBvIagTU3QTQO6dxEU
+bfBEqMIbUvlWuMgDIJetRetVd3y8LULnaRluBJEkHmeYGKHQuXKZ9F29Lx8STsfZw6J0uycOrPJG
+5lYv9B1nMZTuDms8QbnKjXukcvDl8Qllswt3PPCQcvZO7OPYd9IdYd8L/d4ogv5YOpqWoDlQxNX4
+S7J47DfN0s+Zk1FCZN9rlQQN62mQiqA9kKAzhIJBBLdWirmDwlkFtPavNzGFerGcmZJocBY0Fsmk
+I+UKMVfmKeQuK8Rfz5B5r4KdBLm0ZhX1DDvwL9kfJdRe1Ouo/al9qN2pBdS/HBLD/ASZS40MKyO6
+WQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Dubber"
+		id="4c030854-374f-486a-971b-bcb282aa331e"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='tigers.dubber.net']"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="UserPassword"
+			id="89b187fa-a8f5-406e-bed0-f7024828cc6b"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'user_password']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="46174243-9c75-4af7-bccc-c23dce635b5a">
+				/dom[@domain='tigers.dubber.net']//input[#'user_password']
+			</item>
+			<basepath>
+				/dom[@domain='tigers.dubber.net']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables>
+		<var
+		name="varnew"
+		id="1b3d8bbd-e4f5-4045-8bae-23656b26a0cb">
+		</var>
+	</variables>
+</repository>
