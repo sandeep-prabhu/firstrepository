@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="addsettings">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="value" type="B" value="0"/>
+		</Node>
+		<Node name="coveragereport">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="value" type="B" value="0"/>
+		</Node>
+		<Node name="domain">
+			<Prp name="type" type="I" value="5"/>
+			<Prp name="value" type="S" value=""/>
+		</Node>
+		<Node name="enableui">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="value" type="B" value="0"/>
+		</Node>
+		<Node name="endpoint">
+			<Prp name="type" type="I" value="5"/>
+			<Prp name="value" type="S" value=""/>
+		</Node>
+		<Node name="environment">
+			<Prp name="col0enabled" type="B" value="-1"/>
+			<Prp name="col0type" type="I" value="5"/>
+			<Prp name="colcount" type="I" value="1"/>
+			<Prp name="colindex" type="I" value="0"/>
+			<Prp name="rowcount" type="I" value="1"/>
+			<Prp name="rowindex" type="I" value="0"/>
+			<Prp name="type" type="I" value="6"/>
+			<Prp name="val0x0" type="S" value="Default"/>
+		</Node>
+		<Node name="exportall">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="value" type="B" value="-1"/>
+		</Node>
+		<Node name="exportjunitresults">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="value" type="B" value="-1"/>
+		</Node>
+		<Node name="globalproperties">
+			<Prp name="col0enabled" type="B" value="-1"/>
+			<Prp name="col0type" type="I" value="5"/>
+			<Prp name="col1enabled" type="B" value="-1"/>
+			<Prp name="col1type" type="I" value="5"/>
+			<Prp name="colcount" type="I" value="2"/>
+			<Prp name="colindex" type="I" value="1"/>
+			<Prp name="rowcount" type="I" value="0"/>
+			<Prp name="rowindex" type="I" value="-1"/>
+			<Prp name="type" type="I" value="6"/>
+		</Node>
+		<Node name="host">
+			<Prp name="type" type="I" value="5"/>
+			<Prp name="value" type="S" value=""/>
+		</Node>
+		<Node name="ignoreerrors">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="value" type="B" value="0"/>
+		</Node>
+		<Node name="openreport">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="value" type="B" value="0"/>
+		</Node>
+		<Node name="password">
+			<Prp name="type" type="I" value="5"/>
+			<Prp name="value" type="S" value=""/>
+		</Node>
+		<Node name="port">
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="value" type="I" value="0"/>
+		</Node>
+		<Node name="printreport">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="value" type="B" value="-1"/>
+		</Node>
+		<Node name="projectdirectory">
+			<Prp name="type" type="I" value="5"/>
+			<Prp name="value" type="S" value=""/>
+		</Node>
+		<Node name="projectfilename">
+			<Prp name="type" type="I" value="5"/>
+			<Prp name="value" type="S" value=""/>
+		</Node>
+		<Node name="projectpassword">
+			<Prp name="type" type="I" value="5"/>
+			<Prp name="value" type="S" value=""/>
+		</Node>
+		<Node name="projectproperties">
+			<Prp name="col0enabled" type="B" value="-1"/>
+			<Prp name="col0type" type="I" value="5"/>
+			<Prp name="col1enabled" type="B" value="-1"/>
+			<Prp name="col1type" type="I" value="5"/>
+			<Prp name="colcount" type="I" value="2"/>
+			<Prp name="colindex" type="I" value="1"/>
+			<Prp name="rowcount" type="I" value="0"/>
+			<Prp name="rowindex" type="I" value="-1"/>
+			<Prp name="type" type="I" value="6"/>
+		</Node>
+		<Node name="reportformats">
+			<Prp name="col0enabled" type="B" value="-1"/>
+			<Prp name="col0type" type="I" value="1"/>
+			<Prp name="col1enabled" type="B" value="-1"/>
+			<Prp name="col1type" type="I" value="5"/>
+			<Prp name="colcount" type="I" value="2"/>
+			<Prp name="colindex" type="I" value="1"/>
+			<Prp name="rowcount" type="I" value="7"/>
+			<Prp name="rowindex" type="I" value="0"/>
+			<Prp name="type" type="I" value="6"/>
+			<Prp name="val0x0" type="B" value="0"/>
+			<Prp name="val0x1" type="B" value="0"/>
+			<Prp name="val0x2" type="B" value="0"/>
+			<Prp name="val0x3" type="B" value="0"/>
+			<Prp name="val0x4" type="B" value="0"/>
+			<Prp name="val0x5" type="B" value="0"/>
+			<Prp name="val0x6" type="B" value="0"/>
+			<Prp name="val1x0" type="S" value="PDF"/>
+			<Prp name="val1x1" type="S" value="XLS"/>
+			<Prp name="val1x2" type="S" value="HTML"/>
+			<Prp name="val1x3" type="S" value="RTF"/>
+			<Prp name="val1x4" type="S" value="CSV"/>
+			<Prp name="val1x5" type="S" value="TXT"/>
+			<Prp name="val1x6" type="S" value="XML"/>
+		</Node>
+		<Node name="reporttype">
+			<Prp name="col0enabled" type="B" value="-1"/>
+			<Prp name="col0type" type="I" value="5"/>
+			<Prp name="colcount" type="I" value="1"/>
+			<Prp name="colindex" type="I" value="0"/>
+			<Prp name="rowcount" type="I" value="4"/>
+			<Prp name="rowindex" type="I" value="0"/>
+			<Prp name="type" type="I" value="6"/>
+			<Prp name="val0x0" type="S" value="None"/>
+			<Prp name="val0x1" type="S" value="TestSuite Report"/>
+			<Prp name="val0x2" type="S" value="JUnit-Style HTML Report"/>
+			<Prp name="val0x3" type="S" value="Data Export"/>
+		</Node>
+		<Node name="saveafter">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="value" type="B" value="0"/>
+		</Node>
+		<Node name="securitytest">
+			<Prp name="col0enabled" type="B" value="-1"/>
+			<Prp name="col0type" type="I" value="5"/>
+			<Prp name="colcount" type="I" value="1"/>
+			<Prp name="colindex" type="I" value="0"/>
+			<Prp name="rowcount" type="I" value="1"/>
+			<Prp name="rowindex" type="I" value="0"/>
+			<Prp name="type" type="I" value="6"/>
+			<Prp name="val0x0" type="S" value="&lt;All&gt;"/>
+		</Node>
+		<Node name="settings"/>
+		<Node name="settingsxmlpassword">
+			<Prp name="type" type="I" value="5"/>
+			<Prp name="value" type="S" value=""/>
+		</Node>
+		<Node name="systemproperties">
+			<Prp name="col0enabled" type="B" value="-1"/>
+			<Prp name="col0type" type="I" value="5"/>
+			<Prp name="col1enabled" type="B" value="-1"/>
+			<Prp name="col1type" type="I" value="5"/>
+			<Prp name="colcount" type="I" value="2"/>
+			<Prp name="colindex" type="I" value="1"/>
+			<Prp name="rowcount" type="I" value="0"/>
+			<Prp name="rowindex" type="I" value="-1"/>
+			<Prp name="type" type="I" value="6"/>
+		</Node>
+		<Node name="testcase">
+			<Prp name="col0enabled" type="B" value="-1"/>
+			<Prp name="col0type" type="I" value="5"/>
+			<Prp name="colcount" type="I" value="1"/>
+			<Prp name="colindex" type="I" value="0"/>
+			<Prp name="rowcount" type="I" value="1"/>
+			<Prp name="rowindex" type="I" value="0"/>
+			<Prp name="type" type="I" value="6"/>
+			<Prp name="val0x0" type="S" value="&lt;All&gt;"/>
+		</Node>
+		<Node name="testsuite">
+			<Prp name="col0enabled" type="B" value="-1"/>
+			<Prp name="col0type" type="I" value="5"/>
+			<Prp name="colcount" type="I" value="1"/>
+			<Prp name="colindex" type="I" value="0"/>
+			<Prp name="rowcount" type="I" value="1"/>
+			<Prp name="rowindex" type="I" value="0"/>
+			<Prp name="type" type="I" value="6"/>
+			<Prp name="val0x0" type="S" value="&lt;All&gt;"/>
+		</Node>
+		<Node name="toolargs">
+			<Prp name="type" type="I" value="5"/>
+			<Prp name="value" type="S" value=""/>
+		</Node>
+		<Node name="useprojectdirectory">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="value" type="B" value="0"/>
+		</Node>
+		<Node name="useprojectfilename">
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="value" type="B" value="-1"/>
+		</Node>
+		<Node name="username">
+			<Prp name="type" type="I" value="5"/>
+			<Prp name="value" type="S" value=""/>
+		</Node>
+		<Node name="wsspasswordtype">
+			<Prp name="col0enabled" type="B" value="-1"/>
+			<Prp name="col0type" type="I" value="5"/>
+			<Prp name="colcount" type="I" value="1"/>
+			<Prp name="colindex" type="I" value="0"/>
+			<Prp name="rowcount" type="I" value="3"/>
+			<Prp name="rowindex" type="I" value="0"/>
+			<Prp name="type" type="I" value="6"/>
+			<Prp name="val0x0" type="S" value="None"/>
+			<Prp name="val0x1" type="S" value="Text"/>
+			<Prp name="val0x2" type="S" value="Digest"/>
+		</Node>
+		<Prp name="signature" type="S" value="{38F76CCA-6AA2-4C88-9D23-FD0C0909411F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>
