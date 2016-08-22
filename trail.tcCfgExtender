@@ -25,7 +25,7 @@
 				<Node name="{8ee82d46-af98-4371-988c-39e367c94873}"/>
 			</Node>
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{63373697-29D3-459F-9121-E456FF2B1266}"/>
+				<Prp name="activity" type="S" value="{D19992BF-F00D-4963-9F8B-180B8743B8A8}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
 				<Node name="{f8153544-c1f2-4598-994b-c67c6360ddcf}">
@@ -97,7 +97,11 @@
 					</Node>
 				</Node>
 			</Node>
-			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}"/>
+			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
+				<Node name="trail">
+					<Node name="group_admin"/>
+				</Node>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>
 	</Node>
