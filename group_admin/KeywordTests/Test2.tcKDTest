@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{BE31FB8E-C014-4B7C-AA4A-CAC8481E679C}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{674D3DD0-DFA7-476E-A300-34524D6884A9}">
+				<Data Description="Iterates through the specified browsers.">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://tigers.dubber.net/login" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<Item>
+						<BrowserItem BrowserName="iexplore" />
+						<BrowserItem BrowserName="chrome" />
+						<BrowserItem BrowserName="firefox" />
+					</Item>
+				</Data>
+				<Children>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+							<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+								<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="437" />
+								<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="85" />
+							</Parameters>
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageNewtab2.frameMvSingle" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait" InvokeKind="-1" Initialized="True">
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageTigersDubberNetLogin" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+							<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+								<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="127" />
+								<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="24" />
+							</Parameters>
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageTigersDubberNetLogin.formNewUser.emailinputUserEmail" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys" InvokeKind="-1" Initialized="True">
+							<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+								<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="qa+4@dubber.net" />
+							</Parameters>
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageTigersDubberNetLogin.formNewUser.emailinputUserEmail" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+							<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+								<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="135" />
+								<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="11" />
+							</Parameters>
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageTigersDubberNetLogin.formNewUser.passwordboxUserPassword" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText" InvokeKind="-1" Initialized="True">
+							<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+								<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="P@ssword1" />
+							</Parameters>
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageTigersDubberNetLogin.formNewUser.passwordboxUserPassword" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageTigersDubberNetLogin.formNewUser.buttonLogin" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait" InvokeKind="-1" Initialized="True">
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageTigersDubberNetGroupsDubberA" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the %p1 item of the &apos;%n&apos; bar." Action="ClickItem" InvokeKind="-1" Initialized="True">
+							<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+								<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="Daps" />
+							</Parameters>
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageTigersDubberNetGroupsDubberA.panel.panel.panelBtnToolbarSkinnypad.panelBtnToolbarSkinnypad.panelManagementNavigation" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait" InvokeKind="-1" Initialized="True">
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageDubber" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageDubber.linkProfileDdt" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks an item of the &apos;%n&apos; drop-down control." Action="ClickItem" InvokeKind="-1" Initialized="True">
+							<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+								<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="Logout" />
+							</Parameters>
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageDubber.linkProfileDdt" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait" InvokeKind="-1" Initialized="True">
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageTigersDubberNetLogin" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Closes the browser page." Action="Close" InvokeKind="-1" Initialized="True">
+							<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageTigersDubberNetLogin" />
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{B0BA39B0-84E4-4C7A-90AD-DD031E5D17C6}" />
+	<Parameters Key="{891A5C04-A724-462C-AB99-F4E7F8E5E62C}">
+		<Parameter0 Name="Param1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="browswernames" />
+	</Parameters>
+</Root>

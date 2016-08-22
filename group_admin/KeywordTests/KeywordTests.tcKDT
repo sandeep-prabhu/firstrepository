@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="12.0">
+	<children>
+		<child name="create_new_group" key="{EE8E81DE-AB6C-4694-8F6F-A437CDFD3429}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="create_new_group.tcKDTest" />
+		</child>
+		<child name="updating_a_group" key="{670EF6F2-3E0B-49DD-9909-CB29BFB41DA7}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="updating_a_group.tcKDTest" />
+		</child>
+	</children>
+	<folders />
+</Root>
